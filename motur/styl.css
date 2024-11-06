@@ -1,0 +1,47 @@
+* {
+    font-family: 'Verdana';
+}
+
+img {
+    position: absolute;
+    left: 15%;
+    width: 70%;
+    z-index: -1;
+}
+
+#baner {
+    font-size: 150%;
+    padding: 10px;
+    background: rgba(60,120,160,0.9);
+    color: white;
+}
+
+#left {
+    background: rgba(0,100,0,0.6);
+    margin: 2%;
+    width: 75%;
+    height: 600px;
+    font-size: 120%;
+    overflow-y: scroll;
+    box-shadow: 10px 10px 7px dimgray;
+    float: left;
+}
+
+#prawy1,#prawy2 {
+    margin: 1%;
+    width: 15%;
+    height: 300px;
+    box-shadow: 10px 10px 7px dimgray;
+    float: right;
+    background: rgba(0,100,0,0.6);
+}
+
+footer {
+    background: rgba(60,120,160,0.9);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
