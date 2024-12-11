@@ -1,0 +1,83 @@
+* {
+    font-family: 'Garamond';
+}
+
+header {
+    background-color: Tomato;
+    color: white;
+    text-align: center;
+    width: 80%;
+    height: 80px;
+    float: left;
+}
+
+#chat > section {
+    border-radius: 5px;
+    width: 90%;
+    height: 70px;
+    margin: 2%;
+    padding: 3px;
+}
+
+#chat > section.jolka {
+    background-color: #EEE;
+}
+
+#chat > section.jolka img {
+    float: left;
+}
+
+#chat > section.krzysiek {
+    background-color: #CCC;
+    text-align: right;
+}
+
+#chat > section.krzysiek img {
+    float: right;
+}
+
+button {
+    padding: 5px;
+    font-weight: bold;
+    background-color: Tomato;
+    border: 1px solid DarkRed;
+
+}
+
+input {
+    width: 500px;
+}
+
+main {
+    width: 80%;
+    height: 600px;
+    float: left;
+}
+
+#sidebar {
+    background-color: Coral;
+    width: 20%;
+    height: 680px;
+    float: right;
+}
+
+footer {
+    background-color: Tomato;
+    color: white;
+    text-align: center;
+    clear: both;
+}
+
+img {
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#chat {
+    margin: 15px;
+    height: 470px;
+    overflow: scroll;
+    border: 1px solid Tomato;
+
+}

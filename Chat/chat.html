@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Chat</title>
+        <link rel="stylesheet" href="styl.css">
+    </head>
+    <body>
+        <header>
+            <h2>Chat</h2>
+        </header>
+
+        <aside id="sidebar">
+            <h3>Chaty</h3>
+            <ul>
+                <li>Ogolny</li>
+                <li>Tematyczne
+                    <ol>
+                        <li>Turystyczny</li>
+                        <li>Zeglarski</li>
+                        <li>Filatelistyczny</li>
+                        <li>Hodowla zwierzatek domowych</li>
+                    </ol>
+                </li>
+            </ul>
+            <h3>Uczestnicy</h3>
+            <p>Jolanta Nowak</p>
+            <img src="Jolka.jpg" alt="Jolanta Nowak">
+            <p>Krzysztof Łukasiński</p>
+            <img src="Krzysiek.jpg" alt="Krzysztof Łukasiński">
+        </aside>
+
+        <main>
+            <section id="chat">
+                <section class="jolka">
+                    <img src="Jolka.jpg" alt="Jolanta Nowak">
+                    <p>Cześć idziesz jutro do kina?</p>
+                </section>
+
+                <section class="krzysiek">
+                    <img src="Krzysiek.jpg" alt="Krzysztof Łukasiński">
+                    <p>Tak! A Ty?</p>
+                </section>
+            </section>
+            <label for="wiadomosc">Napisz: </label>
+            <input type="text" name="wiadomosc" id="wiadomosc">
+            <button onclick="wyslijWiadomosc()">Wyslij</button><br>
+            <button onclick="generujOdpowiedz()">Generuj losowa odpowiedz</button>
+            <script src="chatSkrypt.js"></script>
+        </main>
+
+        <footer>
+            <h5>Chat wykonał: orewa</h5>
+        </footer>
+    </body>
+</html>
